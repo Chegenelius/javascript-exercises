@@ -51,7 +51,7 @@ const someVariable = undefined;
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
- const someVariable = null;
+ let someVariable=undefined;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof someVariable).to.equal("undefined");

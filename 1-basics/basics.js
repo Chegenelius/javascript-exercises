@@ -135,7 +135,7 @@ const someVariable = undefined;
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+var object = {someProperty: 1};
             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);

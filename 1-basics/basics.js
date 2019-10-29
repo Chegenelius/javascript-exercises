@@ -271,9 +271,7 @@ delete object.someProperty;
             // Can you find a string that casts to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
             const falsyString = "";
-            if(falsyString){
-                console.log("falsyString is not falsy")
-            };
+           
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyString).to.equal("string");
@@ -290,7 +288,7 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // Can you find two different numbers that each cast to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-        
+
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyNumber1).to.equal("number");
@@ -314,7 +312,8 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // Can you find a value that is typeof "object" but also casts to `false`?
             // ✏️ ADD CODE HERE ✏️
-
+            var falsyThing = null;
+        
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyThing).to.equal("object");
@@ -344,7 +343,7 @@ delete object.someProperty;
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+    
             ////////////////////////////////////////////////////////////////////
 
             // That's the same property access as above, but now we get back

@@ -189,7 +189,9 @@ delete object.someProperty;
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            
+    
+    const secondArray = firstArray;
+              
             ////////////////////////////////////////////////////////////////////
 
             expect(secondArray).to.eql([1, 2, 3]);
@@ -211,7 +213,7 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
             // ✏️ ADD CODE HERE ✏️
-            const firstArray = [1, 2, 3];
+            const secondArray = [1, 2, 3];
             ////////////////////////////////////////////////////////////////////
 
             expect(firstArray).to.eql([1, 2, 3]);
@@ -232,7 +234,8 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
             // ✏️ ADD CODE HERE ✏️
-
+         const longArray = (100);
+           console.log = longArray.length;     
             ////////////////////////////////////////////////////////////////////
 
             expect(longArray).to.be.instanceOf(Array);
@@ -351,8 +354,7 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // You can create objects that reference themselves.
             // But you need two steps to do it.
-            // ✏️ ADD CODE HERE ✏️
-
+            // ✏️ ADD CODE HERE 
             ////////////////////////////////////////////////////////////////////
 
             expect(object.object).to.equal(object);

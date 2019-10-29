@@ -134,8 +134,10 @@ const someVariable = undefined;
     describe("Create an object with a property", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
-            // ✏️ ADD CODE HERE ✏️
-var object = {someProperty: 1};
+           // ✏️ ADD CODE HERE ✏
+           const object = {
+            someProperty: 1
+        };
             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);
@@ -151,7 +153,7 @@ var object = {someProperty: 1};
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+object.someProperty = undefined;
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
@@ -170,7 +172,7 @@ var object = {someProperty: 1};
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
@@ -187,7 +189,7 @@ var object = {someProperty: 1};
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(secondArray).to.eql([1, 2, 3]);
@@ -209,7 +211,7 @@ var object = {someProperty: 1};
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
             // ✏️ ADD CODE HERE ✏️
-
+            const firstArray = [1, 2, 3];
             ////////////////////////////////////////////////////////////////////
 
             expect(firstArray).to.eql([1, 2, 3]);

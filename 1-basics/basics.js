@@ -288,7 +288,7 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // Can you find two different numbers that each cast to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyNumber1).to.equal("number");
@@ -358,6 +358,9 @@ delete object.someProperty;
             // You can create objects that reference themselves.
             // But you need two steps to do it.
             // ✏️ ADD CODE HERE 
+
+            const object = {};
+            object.object = object;            
             ////////////////////////////////////////////////////////////////////
 
             expect(object.object).to.equal(object);
